@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ce8b876-8a20-437a-b7ab-eae7f90fb4d3" name="Default" comment="" />
+    <list default="true" id="8ce8b876-8a20-437a-b7ab-eae7f90fb4d3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/Resources/views/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/UserBundle/Resources/views/login.html.twig" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/OC/UserBundle/Resources/views/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="e#12#42#0#Twig" expanded="true" />
                 <element signature="e#293#304#0#Twig" expanded="true" />
@@ -240,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527761901361</updated>
       <workItem from="1527761903021" duration="117000" />
-      <workItem from="1527762058160" duration="9491000" />
+      <workItem from="1527762058160" duration="9723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9608000" />
+    <option name="totallyTimeSpent" value="9840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -327,7 +329,7 @@
     <entry file="file://$PROJECT_DIR$/src/OC/UserBundle/Resources/views/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="e#12#42#0#Twig" expanded="true" />
             <element signature="e#293#304#0#Twig" expanded="true" />
