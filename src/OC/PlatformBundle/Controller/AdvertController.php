@@ -10,8 +10,7 @@ use OC\PlatformBundle\Form\AdvertType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Symfony\Component\Security\Core\Exception\AccessDeniedException;
-
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 class AdvertController extends Controller
 {
     public function indexAction($page)
@@ -76,13 +75,15 @@ class AdvertController extends Controller
         ));
     }
 
+    /**
+     * @param Request $request
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
+     * @Security("has_role('RROLE_AUTEUR')")
+     */
     public function addAction(Request $request)
     {
         $advert = new Advert();
         $form = $this->get('form.factory')->create(AdvertType::class, $advert);
-        if (!$this->get('security.authorization_checker')->isGranted('ROLE_AUTEUR')) {
-            throw AccessDeniedException('Accès limité aux auteurs');
-        }
 
         if ($request->isMethod('POST') && $form->handleRequest($request)->isValid()) {
             $em = $this->getDoctrine()->getManager();
