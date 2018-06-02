@@ -13,7 +13,7 @@ parameters:
 
 framework:
     #esi:             ~
-    #translator:      { fallbacks: ["%locale%"] }
+    translator:      { fallbacks: ["%locale%"] }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -78,3 +78,11 @@ stof_doctrine_extensions:
     orm:
         default:
             sluggable: true
+# FOSUSER configuration
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: OC\UserBundle\Entity\User
+    from_email:
+        address: test@exemple.com
+        sender_name: John Deo
