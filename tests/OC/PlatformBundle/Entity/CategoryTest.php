@@ -14,7 +14,10 @@ use PHPUnit\Framework\TestCase;
 
 class CategoryTest extends TestCase
 {
-  public function testcategory()
+    /**
+     * @test
+     */
+    public function category()
   {
 
       $category = new Category();

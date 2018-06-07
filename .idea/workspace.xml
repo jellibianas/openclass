@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce8b876-8a20-437a-b7ab-eae7f90fb4d3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/openclassroom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/openclassroom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Antispam/OCAntispam.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Antispam/OCAntispam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/AdvertTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/AdvertTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/CategoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/CategoryTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,8 +72,8 @@
       <file leaf-file-name="AdvertTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/AdvertTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#130#166#0#PHP" expanded="true" />
               </folding>
@@ -86,8 +84,8 @@
       <file leaf-file-name="CategoryTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/CategoryTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="238">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#131#169#0#PHP" expanded="true" />
               </folding>
@@ -130,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" />
         <option value="$PROJECT_DIR$/tests/Controller/AdvertControllerTest.php" />
         <option value="$PROJECT_DIR$/tests/OC/PlatformBundle/Controller/AdvertControllerTest.php" />
-        <option value="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/AdvertTest.php" />
         <option value="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/CategoryTest.php" />
+        <option value="$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/AdvertTest.php" />
       </list>
     </option>
   </component>
@@ -257,27 +255,6 @@
               <item name="openclassroom" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="openclassroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openclassroom" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="OC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openclassroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openclassroom" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="OC" type="462c0819:PsiDirectoryNode" />
-              <item name="PlatformBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openclassroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openclassroom" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="OC" type="462c0819:PsiDirectoryNode" />
-              <item name="PlatformBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -318,12 +295,12 @@
       <workItem from="1527849810688" duration="9075000" />
       <workItem from="1527888133378" duration="10892000" />
       <workItem from="1528280033944" duration="7152000" />
-      <workItem from="1528317997600" duration="7114000" />
+      <workItem from="1528317997600" duration="9250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44073000" />
+    <option name="totallyTimeSpent" value="46209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -712,16 +689,6 @@
         <state relative-caret-position="-201" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/CategoryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#131#169#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Advert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="802">
@@ -729,10 +696,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/CategoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#131#169#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/OC/PlatformBundle/Entity/AdvertTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="e#130#166#0#PHP" expanded="true" />
           </folding>
