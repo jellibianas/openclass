@@ -75,11 +75,7 @@ class AdvertController extends Controller
         ));
     }
 
-    /**
-     * @param Request $request
-     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
-     * @Security("has_role('RROLE_AUTEUR')")
-     */
+
     public function addAction(Request $request)
     {
         $advert = new Advert();

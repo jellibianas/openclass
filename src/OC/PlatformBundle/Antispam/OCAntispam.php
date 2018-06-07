@@ -24,6 +24,9 @@ class OCAntispam
    */
   public function isSpam($text)
   {
-    return strlen($text) < $this->minLength;
+      if(  strlen($text) < $this->minLength)
+      {
+          return true;
+      }
   }
 }
