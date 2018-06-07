@@ -13,19 +13,22 @@ use PHPUnit\Framework\TestCase;
 
 class AdvertTest extends TestCase
 {
-    /*public function testadvert()
+    /**
+     * @test
+     */
+    public function advert()
     {
 
 
-        $advert = (new Advert())
-            ->setTitle("Bonjour test unitaire")
-            ->setDate(new \DateTime())
-            ->setAuthor("John")
-            ->setContent('Ceci un test unitaire pour entité advert pour assure le bon fonctionnement')
-            ->setPublished(true);
+        $advert = new Advert();
+        $result = $advert->setTitle("Bonjour test unitaire");
+            $advert->setDate(new \DateTime());
+           $advert->setAuthor("John");
+            $advert->setContent('Ceci un test unitaire pour entité advert pour assure le bon fonctionnement');
+            $advert->setPublished(true);
         $this->assertEquals('Bonjour test unitaire', $advert->getTitle());
         $this->assertTrue($advert->getPublished());
         $this->assertEquals('John', $advert->getAuthor());
-    }*/
+    }
 
 }
